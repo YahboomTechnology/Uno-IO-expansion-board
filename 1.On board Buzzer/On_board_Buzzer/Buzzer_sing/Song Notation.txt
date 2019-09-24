@@ -1,0 +1,33 @@
+1.Happy Birthday
+int tune[]=                 //List each frequency according to the notation
+{
+NTC5, NTC5, NTC6, NTC5, NTCH1, NTC7, 
+NTC5, NTC5, NTC6, NTC5, NTCH2, NTCH1, 
+NTC5, NTC5, NTCH5, NTCH3, NTCH1, NTC7, NTC6, 
+NTCH4, NTCH4, NTCH3, NTCH1, NTCH2, NTCH1,
+};
+float durt[]=                   //List each beat according to the notation
+{
+ 0.5, 0.5, 1, 1, 1, 2,
+ 0.5, 0.5, 1, 1, 1, 2,
+ 0.5, 0.5, 1, 1, 1, 1, 2,
+ 0.5, 0.5, 1, 1, 1, 2,
+};
+
+2.ODE
+int tune[]=                 //List each frequency according to the notation
+{
+NTC3, NTC3, NTC4, NTC5, NTC5, NTC4, NTC3, NTC2, NTC1, NTC1, NTC2, NTC3, NTC3,NTC2, NTC2, 
+ NTC3, NTC3, NTC4, NTC5, NTC5, NTC4, NTC3, NTC2, NTC1, NTC1, NTC2, NTC3, NTC2, NTC1, NTC1,
+NTC2, NTC2, NTC3,NTC1, NTC2, NTC3, NTC4, NTC3, NTC1, NTC2, NTC3, NTC4, NTC3, NTC2,
+
+NTC1, NTC2, NTCL5, NTC3, NTC3, NTC3, NTC4, NTC5, NTC5, NTC4, NTC3, NTC4, NTC2, NTC1, NTC1, NTC2, NTC3, 
+ NTC2, NTC1,NTC1,
+};
+
+float durt[]=             //List each beat according to the notation
+{
+1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 0.5, 0.5, 1, 1, 1, 1, 1, 1, 1, 1,
+1, 1, 1, 1, 2, 0.5, 0.5, 1, 1, 1, 1, 1, 0.5, 0.5, 1, 1, 1, 0.5, 0.5, 1, 1,
+0.5, 0.5, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0.5, 0.5, 1, 1, 1, 1, 2, 0.5, 0.5,
+};
